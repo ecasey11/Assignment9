@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HAPPY HALLOWEEN!</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+</head>
+<body>
+	<h1 id="h1">HAPPY HALLOWEEN!</h1>
+	<h2 id="h2" onmouseover="textToBoo()" onmouseout="textToSpooky()">LET'S GET SPOOKY</h2>
+	<div>
+		<img id="skeletons" src="images/skeletons.jpg">
+		<img id="pumpkin" src="images/pumpkin.jpg">
+		<img id="ghost" src="images/ghost.jpg">
+		<img id="candycorn" src="images/nocandycorn.jpg">
+		<img id="candy" src="images/candy.jpg">
+		<img id="bats" src="images/bats.jpg">
+	</div>
+	<br>
+	<p class="caption"></p>
+	<p class="caption"></p>
+	<p class="caption"></p>
+	<p class="caption"></p>
+	<p class="caption"></p>
+	<p class="caption"></p>
+	
+	<!-- 
+		var divs = document.getElementsByTagName("div");
+		for(var i=0; i < divs.length; i++) {
+
+			//concatenate string and variable (+)
+			divs[i].style.background = 'hsl('+ color + ', 100%, 50%)';
+			color 
+		} -->
+	<script type="text/javascript">
+
+		function textToBoo(){
+			document.getElementById('h2').innerHTML = "BOO!";
+		}
+
+		function textToSpooky(){
+			document.getElementById('h2').innerHTML = "LET'S GET SPOOKY!";
+		}
+
+		var pics = ["skeletons!", "pumpkin!", "ghost!", "candy corn!", "candy!", "bats!"];
+		var text = document.getElementsByTagName('p');
+		
+		for (var i = 0; i < text.length; i++) {
+    		var result = text + pics[i];
+    		
+		}
+		document.getElementsByTagName('p').innerHTML = result;
+
+	</script>
+
+</body>
+</html>

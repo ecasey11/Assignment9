@@ -1,0 +1,79 @@
+body {
+	background-color: black;
+	color: #eb6123;
+	font-family: 'Creepster', cursive;
+}
+
+h1 {
+	letter-spacing: 5px;
+	text-align: center;
+	font-size: 70px;
+	padding-bottom: 0px;
+}
+
+#h2 {
+	padding-top: 0px;
+	letter-spacing: 5px;
+	text-align: center;
+	font-size: 60px;
+}
+
+/*img {*/
+	/*display: inline-block;*/
+
+/*}*/
+
+#skeletons {
+
+}
+
+#pumpkin {
+	height: 200px;
+	width: 200px;
+}
+
+#ghost {
+	height: 200px;
+	width: 200px;
+}
+
+#candycorn {
+	height: 200px;
+	width: 200px;
+}
+
+#candy {
+	height: 250px;
+	width: 200px;
+}
+
+#bats {
+	height: 250px;
+	width: 200px;
+}
+
+.caption {
+	display: inline-block;
+	justify-content: center;
+	margin: 10px;
+	/*height: 200px;
+	width: 200px;*/
+	/*background-color: #eb6123;*/
+}
+
+p {
+	font-size: 30px;
+	color: #eb6123;
+}
+
+
+
+
+
+
+
+
+
+
+
+
